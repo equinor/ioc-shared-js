@@ -1,0 +1,26 @@
+{
+  "name": "ioc-shared-js",
+  "version": "1.0.0",
+  "description": "Shared javascript components for IOC",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "npm run test",
+    "build": "./node_modules/.bin/babel src --out-dir ./build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/equinor/ioc-shared-js.git"
+  },
+  "author": "Equinor IOC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/equinor/ioc-shared-js/issues"
+  },
+  "homepage": "https://github.com/equinor/ioc-shared-js#readme",
+  "dependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-react": "^7.14.5"
+  }
+}
